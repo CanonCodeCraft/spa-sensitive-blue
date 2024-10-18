@@ -1,0 +1,42 @@
+.modal-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .modal-description {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .modal-description ul {
+    text-align: left;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .modal-description ul li {
+    margin-bottom: 10px;
+  }
+  
+
+.h5{
+  color: '#267C73';
+}
+
+.custom-modal-width .modal-dialog {
+  max-width: 30%; /* Ajusta el porcentaje según tus necesidades */
+}
+
+@media (max-width: 768px) {
+  .custom-modal-width .modal-dialog {
+    max-width: 100%; /* Para dispositivos móviles */
+  }
+}

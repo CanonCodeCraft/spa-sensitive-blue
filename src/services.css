@@ -1,0 +1,11 @@
+.my-container img:hover{
+    transform: scale(1.13);
+    transition: 1s;
+}
+
+.my-container img{
+    margin: auto;
+    cursor: pointer;
+
+    transition: 1s;
+}
