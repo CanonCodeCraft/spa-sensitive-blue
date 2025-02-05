@@ -26,7 +26,7 @@ export const Services: React.FC = () => {
       >
         <div className="row">
           <div className="col">
-            <h1 style={{ marginBottom: "70px" }}>Nuestros Servicios</h1>
+            <h1 style={{ marginBottom: "70px" }}>Nuestros servicios a Domicilio</h1>
           </div>
         </div>
         <div className="row">

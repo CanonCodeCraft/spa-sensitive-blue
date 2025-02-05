@@ -45,7 +45,7 @@ export const Footer = () => {
           <hr className="w-100 clearfix d-md-none" />
 
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 className="text-uppercase mb-4 font-weight-bold">Contactate con nosotros</h6>
+            <h6 className="text-uppercase mb-4 font-weight-bold">Agenda tu cita</h6>
             <p><i className="fas fa-envelope mr-3"></i> info@sbspa.com</p>
             <p><i className="fas fa-phone mr-3"></i> +57 320 525 90 60</p>
           </div>
