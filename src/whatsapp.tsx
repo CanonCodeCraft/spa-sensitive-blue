@@ -3,7 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import './whatsapp.css';
 
 export const Whatsapp: React.FC = () => {
-  const phoneNumber = "3205259060";
+  const phoneNumber = "+57 3205259060";
   const message = encodeURIComponent("¡Hola! Estoy interesado en los servicios de Sensitive Angels Spa. ¿Podrías darme detalles sobre los tratamientos y precios? ¡Gracias!");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 

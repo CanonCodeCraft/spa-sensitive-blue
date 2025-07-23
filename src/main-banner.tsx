@@ -15,7 +15,7 @@ export const MainBanner = () => {
       image: "./unsplashImg/banner7.jpg"
     },
     {
-      name: "Desde la comodidad de tu hogar",
+      name: "Desde tu hogar",
       description: "Realza tu brillo interior con nuestros rituales personalizados.",
       image: "./unsplashImg/banner2.jpg"
     },

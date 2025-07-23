@@ -15,7 +15,7 @@ export const MainPage = () => {
           marginBottom: '1.5rem',     
           textAlign: 'center',        
         }}>
-          Nuestros servicios a Domicilio
+          Servicios a Domicilio en Bogotá
         </h1>
         <Servicios/>
         <BannerMassage/>
