@@ -1,0 +1,22 @@
+.boton-detalles-spa {
+  background-color: #d4af37;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 25px;
+  padding: 6px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-detalles-spa:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+.descripcion-spa {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  color: #6c757d;
+  line-height: 1.5;
+}

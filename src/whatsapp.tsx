@@ -1,16 +1,23 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
+import './whatsapp.css';
 
 export const Whatsapp: React.FC = () => {
-  const phoneNumber = "3205259060"; 
-  const message = "¡Hola!%20Estoy%20interesado%20en%20los%20servicios%20de%20Sensitive%20Angels%20Spa.%20"+
-  "¿Podrías%20darme%20detalles%20sobre%20los%20tratamientos%20y%20precios?%20¡Gracias!";
-
+  const phoneNumber = "3205259060";
+  const message = encodeURIComponent("¡Hola! Estoy interesado en los servicios de Sensitive Angels Spa. ¿Podrías darme detalles sobre los tratamientos y precios? ¡Gracias!");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
   return (
-    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="whatsapp-button">
-      <FaWhatsapp size={32} color="#25D366" />
-    </a>
+    <div className="whatsapp-container">
+      <a
+        href={whatsappUrl}
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp className="whatsapp-icon" />
+        <span className="tooltip-text">¿Deseas reservar? Chatea con nosotros</span>
+      </a>
+    </div>
   );
 };

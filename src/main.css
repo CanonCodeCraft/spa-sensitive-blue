@@ -1,0 +1,39 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #aad8f8;
+  background-size: 70% 70%;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: drop-shadow(0 0 2px #000);
+}
+
+.card-text.descripcion {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.3rem;
+}
+
+.precio-dorado {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.boton-detalles {
+  background: none;
+  border: none;
+  color: #856404;
+  text-decoration: underline;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.2rem;
+  padding: 0;
+  margin-bottom: 0.75rem;
+}
+
+.boton-detalles:hover {
+  color: goldenrod;
+  cursor: pointer;
+  text-shadow: 0 0 1px #000;
+}

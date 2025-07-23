@@ -1,45 +1,46 @@
+// MainBanner.tsx
 import Carousel from 'react-bootstrap/Carousel';
-import './main-banner.css'
-export const MainBanner = () => 
-  {
-    var items = [
-        {
-            name: "Relajación Suprema en Sensitive Angels Spa",
-            description: "Escápate a la tranquilidad y rejuvenece tus sentidos.",
-            image:"./unsplashImg/banner1.jpg"
-        },
-        {
-            name: "Revitaliza Tu Piel",
-            description: "Logra una piel radiante con nuestros avanzados tratamientos faciales.",
-            image:"./unsplashImg/banner7.jpg"
-        },
-        {
-            name: "Rituales de Belleza",
-            description: "Tratamientos que realzan tu belleza natural",
-            image:"./unsplashImg/banner2.jpg"
-        },
-        {
-            name: "",
-            description: "",
-            image:"./unsplashImg/banner8.jpg"
-        }
-    ]
+import './main-banner.css';
+
+export const MainBanner = () => {
+  const items = [
+    {
+      name: "Agenda tu cita y Sumérgete en la Armonía",
+      description: "Sensitive Angels Spa: Donde cuerpo y alma se encuentran en equilibrio.",
+      image: "./unsplashImg/banner1.jpg"
+    },
+    {
+      name: "Renueva Tu Esencia, Reserva con nosotros",
+      description: "Descubre la suavidad de una piel saludable con nuestros tratamientos.",
+      image: "./unsplashImg/banner7.jpg"
+    },
+    {
+      name: "Belleza que Inspira Paz desde la comodidad de tu hogar",
+      description: "Realza tu brillo interior con nuestros rituales personalizados.",
+      image: "./unsplashImg/banner2.jpg"
+    },
+    {
+      name: "Tu Refugio de Serenidad está con Sensitive Angels Spa",
+      description: "Conecta con tu paz interior entre aromas, aceites y susurros de calma.",
+      image: "./unsplashImg/banner5.jpg"
+    }
+  ];
 
   return (
-    <Carousel >
-
-      {items.map((item, index) =>
-
+    <Carousel fade indicators>
+      {items.map((item, index) => (
         <Carousel.Item key={index}>
-          <img className="d-block w-100" src={item.image} style={{width:"100%", height:"100vh"}}/>
-          <Carousel.Caption>
-          <h1 style={{fontFamily:"Great Vibes, cursive", fontSize: "5rem"}}>{item.name}</h1>
-          <h5 style={{fontFamily:"Great Vibes, cursive", fontSize: "3rem"}}>{item.description}</h5>
+          <img
+            className="d-block w-100 banner-img"
+            src={item.image}
+            alt={item.name}
+          />
+          <Carousel.Caption className="banner-caption">
+            <h1>{item.name}</h1>
+            <p>{item.description}</p>
           </Carousel.Caption>
         </Carousel.Item>
-
-      )}
-      
+      ))}
     </Carousel>
-  )
-}
+  );
+};

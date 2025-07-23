@@ -1,5 +1,5 @@
 import {MainBanner} from './main-banner'
-import { Services } from './services'
+import  Servicios  from './new-services'
 import { BannerMassage } from './banner-message'
 import { About } from './about'
 
@@ -7,7 +7,17 @@ export const MainPage = () => {
   return (
     <div className='App'>
         <MainBanner/>
-        <Services/>
+        
+        <br/>
+         <h1 style={{
+          fontFamily: "Great Vibes, cursive",
+          fontSize: '4.5rem',         
+          marginBottom: '1.5rem',     
+          textAlign: 'center',        
+        }}>
+          Nuestros servicios a Domicilio
+        </h1>
+        <Servicios/>
         <BannerMassage/>
         <section id="nosotros" style={{ padding: '100px 0' }}>
           <About/>
