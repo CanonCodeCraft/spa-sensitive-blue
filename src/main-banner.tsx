@@ -5,7 +5,7 @@ import './main-banner.css';
 export const MainBanner = () => {
   const items = [
     {
-      name: "Agenda tu cita y Sumérgete en la Armonía",
+      name: "Agenda tu cita con Sensitive",
       description: "Sensitive Angels Spa: Donde cuerpo y alma se encuentran en equilibrio.",
       image: "./unsplashImg/banner1.jpg"
     },
@@ -15,12 +15,12 @@ export const MainBanner = () => {
       image: "./unsplashImg/banner7.jpg"
     },
     {
-      name: "Belleza que Inspira Paz desde la comodidad de tu hogar",
+      name: "Desde la comodidad de tu hogar",
       description: "Realza tu brillo interior con nuestros rituales personalizados.",
       image: "./unsplashImg/banner2.jpg"
     },
     {
-      name: "Tu Refugio de Serenidad está con Sensitive Angels Spa",
+      name: "Servicio de Spa a Domicilio",
       description: "Conecta con tu paz interior entre aromas, aceites y susurros de calma.",
       image: "./unsplashImg/banner5.jpg"
     }
